@@ -1,1 +1,1 @@
-# spectral-tech-cpp-course
+# Spectral Technologies Effective CPP course
