@@ -1,0 +1,15 @@
+{
+  "score": 600,
+  "targets": [
+    "Release",
+    "ASAN"
+  ],
+  "orig_files": [
+    "CMakeLists.txt",
+    "commons.h",
+    "test.cpp",
+    "validator.py",
+    "test_outputs",
+    "tests"
+  ]
+}

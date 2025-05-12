@@ -1,0 +1,12 @@
+{
+  "score": 500,
+  "targets": [
+    "Release",
+    "ASAN"
+  ],
+  "orig_files": [
+    "CMakeLists.txt",
+    "test_parser.cpp",
+    "eth.pcapng"
+  ]
+}

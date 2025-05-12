@@ -1,0 +1,11 @@
+{
+  "score": 100,
+  "targets": [
+    "Release",
+    "ASAN"
+  ],
+  "orig_files": [
+    "CMakeLists.txt",
+    "test.cpp"
+  ]
+}

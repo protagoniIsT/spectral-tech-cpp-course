@@ -1,0 +1,12 @@
+{
+  "score": 500,
+  "targets": [
+    "Release"
+  ],
+  "orig_files": [
+    "tester.py"
+  ],
+  "custom": true,
+  "custom_cmake": true,
+  "custom_command": []
+}

@@ -1,0 +1,14 @@
+{
+  "score": 200,
+  "targets": [
+    "Release",
+    "ASAN",
+    "TSAN"
+  ],
+  "orig_files": [
+    "test.cpp",
+    "run.cpp",
+    "CMakeLists.txt"
+  ],
+  "bench": true
+}

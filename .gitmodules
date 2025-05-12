@@ -1,0 +1,9 @@
+[submodule "tasks/contrib/benchmark"]
+	path = tasks/contrib/benchmark
+	url = https://github.com/google/benchmark.git
+[submodule "tasks/contrib/googletest"]
+	path = tasks/contrib/googletest
+	url = https://github.com/google/googletest.git
+[submodule "tasks/contrib/fixed_string"]
+	path = tasks/contrib/fixed_string
+	url = https://github.com/unterumarmung/fixed_string.git

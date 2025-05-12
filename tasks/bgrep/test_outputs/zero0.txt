@@ -1,0 +1,2 @@
+tests/zero.bin:100000:00
+tests/zero.bin:100001:00

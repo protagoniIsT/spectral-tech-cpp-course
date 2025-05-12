@@ -1,0 +1,5 @@
+add_library(abort_stacktrace SHARED stacktrace.cpp)
+add_executable(test_abort test.cpp)
+target_compile_definitions(test_abort PRIVATE _GLIBCXX_DEBUG)
+target_compile_options(test_abort PRIVATE "-g")
+target_link_libraries(test_abort PRIVATE dl)

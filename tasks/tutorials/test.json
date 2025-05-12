@@ -1,0 +1,10 @@
+{
+  "score": 100,
+  "targets": [
+    "Release",
+    "ASAN"
+  ],
+  "orig_files": [
+    "test.cpp"
+  ]
+}

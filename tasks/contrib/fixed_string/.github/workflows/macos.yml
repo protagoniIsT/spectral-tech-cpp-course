@@ -1,0 +1,34 @@
+name: macos
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'documentation/**'
+      - '.github/workflows/documentation.yml'
+  push:
+    paths-ignore:
+      - 'documentation/**'
+      - '.github/workflows/documentation.yml'
+
+jobs:
+  build:
+    runs-on: ${{matrix.config.os}}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { os: macos-10.15 }
+        build: [ Debug, Release ]
+
+    name: "${{matrix.config.os}}:${{matrix.build}}"
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Configure CMake
+        run: cmake -DCMAKE_BUILD_TYPE=${{matrix.build}}
+
+      - name: Build
+        run: cmake --build . --config ${{matrix.build}}
+
+      - name: Tests
+        run: ctest --output-on-failure -C ${{matrix.build}}

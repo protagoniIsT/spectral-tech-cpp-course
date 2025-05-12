@@ -1,0 +1,12 @@
+{
+  "score": 600,
+  "targets": [
+    "Release"
+  ],
+  "orig_files": [
+    "test/libopt.so",
+    "test/libbad.so",
+    "test/liblose.so",
+    "test/runner"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "tasks": [
+      "multiplication",
+      "byte_order",
+      "short_view",
+      "reverse_vector",
+      "static_allocator",
+      "set_allocator"
+    ],
+    "start_time": "2025-03-04 18:00",
+    "end_time": "2025-03-16 23:59"
+  },
+  {
+    "tasks": [
+      "fold",
+      "itertools",
+      "static-map",
+      "intrusive-list",
+      "fuzzy-search"
+    ],
+    "start_time": "2025-03-11 18:00",
+    "end_time": "2025-03-21 23:59"
+  },
+  {
+    "tasks": [
+      "cow-vector",
+      "deque",
+      "hashmap",
+      "small-vector"
+    ],
+    "start_time": "2025-03-18 18:00",
+    "end_time": "2025-03-28 23:59"
+  },
+  {
+    "tasks": [
+      "concepts",
+      "clever-set",
+      "tuple-utils",
+      "fixstr-utils",
+      "meta-name"
+    ],
+    "start_time": "2025-03-25 18:00",
+    "end_time": "2025-04-04 23:59"
+  },
+  {
+    "tasks": [
+      "trades",
+      "tic-tac-toe",
+      "abort"
+    ],
+    "start_time": "2025-04-01 18:00",
+    "end_time": "2025-04-11 23:59"
+  },
+  {
+    "tasks": [
+      "bgrep",
+      "orderbook"
+    ],
+    "start_time": "2025-04-15 18:00",
+    "end_time": "2025-04-25 23:59"
+  },
+  {
+    "tasks": [
+      "reduce",
+      "rw-spinlock",
+      "shm-matrix",
+      "buffered-channel"
+    ],
+    "start_time": "2025-04-22 18:00",
+    "end_time": "2025-05-02 23:59"
+  },
+  {
+    "tasks": [
+      "avx-matmul",
+      "avx-vector",
+      "sse-search"
+    ],
+    "start_time": "2025-04-29 18:00",
+    "end_time": "2025-05-09 23:59"
+  }
+]
